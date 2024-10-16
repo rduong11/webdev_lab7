@@ -54,3 +54,11 @@ td {
   font-size: 1.1rem;
   color: #000000;
 }
+
+.hover-text {
+  text-align: center;
+  font-size: 0.9rem;
+  color: #343333;
+  margin-top: 5px;
+  font-style: italic;
+}
