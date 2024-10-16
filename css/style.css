@@ -1,0 +1,43 @@
+body {
+  font-family: Helvetica, sans-serif;
+  background-color: #ef9964;
+  padding: 20px;
+}
+
+h1 {
+  text-align: center;
+  font-size: 2.5em;
+  color: #3b2f2c
+}
+
+#planets {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 0 auto;
+}
+
+#planets th, #planets td {
+  border: 1px solid #ddd;
+  padding: 10px;
+  text-align: center;
+}
+
+#planets th {
+  background-color: #4CAF50;
+  color: white;
+  font-weight: bold;
+}
+
+#planets td img {
+  width: 150px;
+  height: 150px;
+}
+  
+#planets tr:hover {
+ background-color: #ddd;
+}
+  
+td {
+  font-size: 1.1rem;
+  color: #333;
+}
