@@ -23,7 +23,7 @@ h1 {
 }
 
 #planets th {
-  background-color: #4CAF50;
+  background-color: #333;
   color: white;
   font-weight: bold;
 }
@@ -32,11 +32,21 @@ h1 {
   width: 150px;
   height: 150px;
 }
-  
+
+#planets td img:hover {
+  transform: scale(1.1);
+}
+
 #planets tr:hover {
  background-color: #ddd;
 }
   
+td:first-child {
+  font-weight: bold;
+  font-style: italic;
+  color: #555;
+}
+
 td {
   font-size: 1.1rem;
   color: #333;
