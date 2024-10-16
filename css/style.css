@@ -23,7 +23,7 @@ h1 {
 }
 
 #planets th {
-  background-color: #333;
+  background-color: #000000;
   color: white;
   font-weight: bold;
 }
@@ -52,5 +52,5 @@ td:first-child {
 
 td {
   font-size: 1.1rem;
-  color: #333;
+  color: #000000;
 }
